@@ -1,0 +1,349 @@
+*{
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header{
+    width: 1200px;
+    height: 70px;
+    background-color: #1b1b1b;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    width:717px ;
+    height:18px ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.socialmedia-icons{
+    width: 107px;
+    height: 20px;
+}
+
+.navbar a{
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.socialmedia-icons i{
+    height: 25px;
+    width: 25px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+.profile-content{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.profile-left{
+    width: 538px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-left{
+    text-align: center;
+    animation: slide_from_left 2s forwards;
+    opacity: 0;
+}
+
+@keyframes slide_from_left {
+    
+    0%{
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    100%{
+        opacity: 1;   
+        transform: translate(0%);
+
+    }
+
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.content-head{
+    width: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.Intro-text{
+    width: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font: size 14px; ;
+    font-weight:400 ;
+    color: #9c9c9c;
+}
+
+
+.startbutton{
+    border-radius: 4px;   
+    border: 1px #62ba1b;
+    background-color: #3fed00;
+    color: white;
+    text-decoration: none;
+    padding:  10px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.btn{
+    padding: 10px 20px;
+    width: 50%;
+    background-color: #3fed00;
+    border-radius: 4px;   
+    border: 1px #62ba1b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.profile-right{
+    width: 350px;
+    height:350px;
+    border-radius: 50%;
+    background-image: url("profile\ img.jpg");
+    background-size: cover;
+}
+
+
+
+.worked-with{
+    width: 920px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.org{
+    width: 160px;
+    height: 60px;
+    color: #9c9c9c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0.5px solid #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+
+.case-studies{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study-main{
+    margin-top: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-studies-para-c{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: size 14px; ;
+    font-weight:400 ;
+    color: #9c9c9c;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.case-studies-para2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.case-study1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.study-text{
+    width: 45%;
+}
+
+.section-label{
+    width: 10%;
+    color: #ffa217;
+    padding: 8px;
+   border-radius:60px ;
+   background-color: #fff6e9;
+   align-items: center;
+}
+
+.section-desc{
+    width: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font: size 14px; ;
+    font-weight:400 ;
+    color: #9c9c9c;
+}
+
+.button-group{
+    margin-top: 2rem;
+    padding: 10px 24px 10px 24px;
+    width: 32%;
+    background-color: #ffa217;
+    border-radius: 4px;   
+    border: 1px #62ba1b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.study1button{
+    text-decoration: none;
+    color: white;
+}
+
+.study-image{
+    width: 45%;
+    height: 70%;
+    overflow: hidden;
+}
+.img{
+    margin-top: 1rem;
+    width: 100%;
+    height: 60%;
+}
+
+.label2{
+    color: blue;
+    background-color: #d0e6ff;
+}
+
+.btn2{
+    background-color: blue;
+}
+
+.label3{
+    color:#2ab090;
+    background-color: #e0fff8;
+}
+
+.btn3{
+    background-color:#2ab090 ;
+}
+
+.testimonials{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.testimonials-head{
+    color: white;
+    font-size: 50px;
+}
+
+.testimonials-para{
+    color: #9c9c9c;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.testimonials-main{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.quotes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.sub-quote{
+    width: 100%;
+   margin-left: 5%;
+}
+
+.client-quote{
+    width: 100%;
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.client-info{
+    width: 50%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.client-img{
+    width:25% ;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.imagec{
+    width:100% ;
+    height: 100%;
+}
+
+.client-name{
+    color: white;
+    font-size: 20px;
+    margin-left: 0.5rem;
+}
+
+.recent-work{
+    margin-top: 5rem;
+}
